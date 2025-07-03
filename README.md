@@ -52,7 +52,7 @@ Internshala-Automation/
 
 
 ## 🛠 Setup Instructions
-
+```
 1. Clone the repository
 
 git clone https://github.com/your-username/Internshala-Automation.git
@@ -75,21 +75,28 @@ Run the main automation sequence:
 
 node main.js
 
+```
+---
+
 ## 🧪 TestNG-style Execution
 Although written in JavaScript, the execution flow mimics the modular TestNG test suite pattern:
 
-Phase	File
-BeforeTest	login.js
-Test	filter.js → apply.js
-AfterTest	logout.js
+| Phase      | File                     |
+| ---------- | ------------------------ |
+| BeforeTest | `login.js`               |
+| Test       | `filter.js` → `apply.js` |
+| AfterTest  | `logout.js`              |
+
+
+---
 
 ## 💡 Use Cases
-Automating Internshala for daily job/internship hunts
+- Automating Internshala for daily job/internship hunts
 
-Task scheduling via Node.js for nightly automation
+- Task scheduling via Node.js for nightly automation
 
-Extendable to other job portals using Puppeteer
+- Extendable to other job portals using Puppeteer
 
-Can integrate with Slack/email alerts for new matches
+- Can integrate with Slack/email alerts for new matches
 
 
